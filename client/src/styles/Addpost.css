@@ -1,0 +1,42 @@
+.addpost{
+    width:100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.addpost-card
+{
+    width:60%;
+    height: 50%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: space-around;
+    padding:1rem;
+    border:1px solid black;
+}
+.title-input
+{
+    width:22rem;
+    margin:1rem;
+    font-size:1.4rem;
+    
+}
+.author-input
+{
+    width:16rem;
+    margin:1rem;
+}
+#mytextarea
+{
+    width:90%;
+    margin:1rem;
+    padding:1rem;
+
+}
+.s-btn
+{
+    margin:1rem;
+    padding:1rem;
+}

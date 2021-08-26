@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.blogposts {
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr  1fr;
+    place-items:center;
+    justify-content: space-around;
+
+}
+.card
+{
+    width:25rem;
+    height:30rem;
+    margin:1rem;
+    padding:1rem;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction:column;
+    background:linear-gradient(45deg , white,rgb(187, 209, 219),rgb(211, 168, 204))
+}
+.title 
+{
+    width:90%;
+    text-align:center;
+    border-bottom:1px solid black;
+    font-size:1.6rem;
+    margin:0;
+    padding:0;
+    font-weight:600;
+    height:15%;
+    display:flex;
+    justify-content: space-between;
+}
+.title a 
+{
+    font-size:1rem;
+    text-decoration:none;
+    list-style:none;
+}
+.description {
+    width:100%;
+    text-align:center;
+    height:80%;
+    padding:.5rem;
+}
+.author {
+    width:100%;
+    height:2%;
+    text-align: center;
+}
+.btns {
+    display:flex;
+    width:25%;
+    flex-direction:row;
+    padding:1rem;
+    /* box-sizing:border-box; */
+
+}
+.btns :nth-child(1){
+   margin:.4rem;
+   cursor: pointer;
+}
+.btns :nth-child(3){
+    margin:.4rem;
+    cursor: pointer;
+ }
